@@ -7,3 +7,4 @@ data[:] = [255, 100, 90]
 
 img = Image.fromarray(data, "RGB")
 img.save('canvas.png')
+print(data)
